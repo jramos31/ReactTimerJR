@@ -1,12 +1,19 @@
  // Colors
- $blue: #0059A7;
-
+$orange: #FFC75D;
+$white: #FFFFFF;
+$darker-orange: #FF8100;
+$gray: #474747;
 
  //Navigation colors
-$nav-background: $blue;
-$nav-text-color: #ffffff;
+$nav-background: $orange;
+$nav-text-color: $gray;
+$nav-link-color: $white;
 
 //Clock variables
-$clock-text-color: #ffffff;
+$clock-text-color: $white;
 $clock-bg-color: #FFC181;
-$clock-border-color: #FF8100;
+$clock-border-color: $darker-orange;
+
+//button colors
+$button-start: $darker-orange;
+$button-hover: $gray;

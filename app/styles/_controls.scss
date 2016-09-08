@@ -10,3 +10,21 @@
     margin-right: 2rem;
   }
 }
+
+.button.primary:focus, .button.primary {
+    background-color: $darker-orange;
+    color: $white;
+}
+
+.button.primary:hover {
+    background-color: $gray;
+    color: $white;
+}
+
+.expanded {
+    background-color: $darker-orange;
+}
+
+.expanded:hover {
+    background-color: $gray;
+}
